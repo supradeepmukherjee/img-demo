@@ -19,7 +19,7 @@ function App() {
     });
   }
   return (
-    <div className="h-full flex flex-col justify-center items-center px-4 gap-8 overflow-x-hidden">
+    <div className="h-screen flex flex-col justify-center items-center px-4 gap-8 overflow-x-hidden">
       <div className="w-screen flex justify-center">
         <input type="file" name='images' accept='image/*' onChange={imgHandler} multiple className='cursor-pointer z-20 h-[5vh] border-none m-0 text-[1vmax] font-normal font-[cursive] transition-all duration-200 px-[1vmax] text-black/60 bg-white' />
       </div>
